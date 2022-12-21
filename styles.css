@@ -1,0 +1,133 @@
+.VAnea {
+  border-radius: 50%;
+  border-color: black;
+  width: 250px;
+  height: 250px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.2);
+}
+body {
+  background: papayawhip;
+  color: #0f141e;
+  font-size: 16px;
+  font-weight: normal;
+  /* font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif; */
+  font-family: "Roboto", sans-serif;
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+}
+.name {
+  /* color: #86898f; */
+  font-style: italic;
+  display: flex;
+}
+@media (max-width: 700px) {
+  .name {
+    display: block;
+    text-align: center;
+  }
+}
+.info {
+  margin-left: 40px;
+}
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding: 15px;
+  border: 5px solid cyan;
+  padding-top: 30px;
+}
+a {
+  color: #0f141e;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: rgb(8, 140, 140);
+}
+a:visited {
+  color: #86898f;
+}
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.bg-yellow {
+  background: #fef6d0;
+}
+.bg-green {
+  background: #e5ffe7;
+}
+.bg-red {
+  background: #ffe5e5;
+}
+.list {
+  padding: 0 20px;
+}
+.list li {
+  color: #86898f;
+  margin-bottom: 10px;
+}
+.table {
+  width: 100%;
+}
+.table td {
+  padding-bottom: 10px;
+}
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: #86898f;
+}
+.bg-cyan {
+  background: rgb(201, 246, 231);
+}
+.link-list {
+  list-style: none;
+  padding: 0;
+}
+.link-list li {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid gray;
+}
+.contact h2 {
+  text-align: center;
+}
+.group label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+.group input,
+.group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: #0f141e;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+.row > .group {
+  width: 50%;
+  margin-right: 20px;
+}
+.btn {
+  color: #ffffff;
+  padding: 15px 20px;
+  background: #8fb1f5;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.9;
+}
